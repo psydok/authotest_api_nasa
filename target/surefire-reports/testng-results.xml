@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="9141" started-at="2020-05-26T03:45:48 GMT+05:00" finished-at="2020-05-26T03:45:57 GMT+05:00">
+    <groups>
+      <group name="positiveTest">
+        <method signature="TestsOnGetDataset.dataProjectionQuery()[pri:0, instance:tests.TestsOnGetDataset@4721d212]" name="dataProjectionQuery" class="tests.TestsOnGetDataset"/>
+      </group> <!-- positiveTest -->
+      <group name="negativeTest">
+        <method signature="TestsOnGetDataset.dataNegativeProjectionQuery()[pri:0, instance:tests.TestsOnGetDataset@4721d212]" name="dataNegativeProjectionQuery" class="tests.TestsOnGetDataset"/>
+      </group> <!-- negativeTest -->
+    </groups>
+    <test name="Surefire test" duration-ms="9141" started-at="2020-05-26T03:45:48 GMT+05:00" finished-at="2020-05-26T03:45:57 GMT+05:00">
+      <class name="tests.TestsOnGetDataset">
+        <test-method status="PASS" signature="dataNegativeProjectionQuery()[pri:0, instance:tests.TestsOnGetDataset@4721d212]" name="dataNegativeProjectionQuery" duration-ms="4676" started-at="2020-05-26T03:45:48 GMT+05:00" finished-at="2020-05-26T03:45:52 GMT+05:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataNegativeProjectionQuery -->
+        <test-method status="PASS" signature="dataProjectionQuery()[pri:0, instance:tests.TestsOnGetDataset@4721d212]" name="dataProjectionQuery" duration-ms="4338" started-at="2020-05-26T03:45:52 GMT+05:00" finished-at="2020-05-26T03:45:57 GMT+05:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProjectionQuery -->
+      </class> <!-- tests.TestsOnGetDataset -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
