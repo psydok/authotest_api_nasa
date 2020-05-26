@@ -12,9 +12,17 @@
     <properties>
         <aspectj.version>1.8.10</aspectj.version>
         <allure.version>2.13.3</allure.version>
+        <spring.version>5.2.6.RELEASE</spring.version>
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>

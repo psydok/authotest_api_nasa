@@ -1,0 +1,2 @@
+2020-05-26 20:30:12,687 [DEBUG] - Parsing response as: application/json; charset=utf-8
+2020-05-26 20:30:12,793 [DEBUG] - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream

@@ -10,21 +10,31 @@ public class DatasetRequestBuilder {
         this.requestSpecification = requestSpecification;
     }
 
-    public DatasetRequestBuilder apiKey(String key) {
-        requestSpecification.queryParams("api_key", key);
-        return this;
-    }
-
+    /**
+     * Марсианский золь миссии Ровера
+     */
     public DatasetRequestBuilder sol(int sol) {
         requestSpecification.queryParams("sol", sol);
         return this;
     }
 
-    public DatasetRequestBuilder imgSrc(String img_src) {
-        requestSpecification.queryParams("img_src", img_src);
+    /**
+     * Вводить аббревиатурой.
+     * Пример: FHAZ, RHAZ, MAST
+     */
+    public DatasetRequestBuilder camera(String camera) {
+        requestSpecification.queryParams("camera", camera);
         return this;
     }
 
+    public DatasetRequestBuilder page(int page) {
+        requestSpecification.queryParams("page", page);
+        return this;
+    }
+
+    /**
+     * Формат: YYYY-MM-DD
+     */
     public DatasetRequestBuilder earthDate(String earth_date) {
         requestSpecification.queryParams("earth_date", earth_date);
         return this;

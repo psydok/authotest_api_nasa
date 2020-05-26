@@ -11,14 +11,16 @@ import java.util.Properties;
 import static io.restassured.RestAssured.given;
 
 public class BaseService {
-    private final RequestSpecification spec;
+    private RequestSpecification spec;
 
-    public BaseService(Properties properties) {
+    public BaseService(Properties properties, boolean isNegativeTest) {
         RequestSpecBuilder specBuilder = new RequestSpecBuilder()
                 .setContentType(ContentType.JSON)
                 .setBaseUri(properties.getProperty("base_uri"))
-                .setBasePath(properties.getProperty("base_path"))
-                .addQueryParam("api_key", properties.getProperty("api_key"));
+                .setBasePath(properties.getProperty("base_path"));
+
+        if (!isNegativeTest)
+            specBuilder.addQueryParam("api_key", properties.getProperty("api_key"));
 
         boolean devEnvironment = Boolean.parseBoolean(properties.getProperty("dev", "false"));
         if (devEnvironment) {

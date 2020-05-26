@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29699c47-b2ab-4024-a87c-6bdf24842b03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/Camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/NamesCamera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/Photo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/Rover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/builders/DatasetRequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builders/DatasetRequestBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/DatasetModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/DatasetModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/services/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/services/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/services/DatasetsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/services/DatasetsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestsOnGetDataset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestsOnGetDataset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/app.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/app.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/builders/DatasetRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/builders/DatasetRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/models/DatasetModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/models/DatasetModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/services/BaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/services/BaseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/services/DatasetsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/services/DatasetsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestsOnGetDataset.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestsOnGetDataset.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,53 +32,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/services/DatasetsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/builders/DatasetRequestBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestsOnGetDataset.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="24" column="24" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="24" />
+            <state relative-caret-position="374">
+              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <element signature="e#1117#1118#0" expanded="true" />
+                <element signature="e#1160#1161#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestsOnGetDataset.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/services/DatasetsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="296">
+              <caret line="36" column="61" lean-forward="true" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1590515066208" expanded="true" signature="2389:2627" ph="..." />
               </folding>
             </state>
           </provider>
@@ -76,26 +82,35 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>log</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/services/BaseService.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/PositivTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/PositiveTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/TestOnGetDataset.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/app_without_apikey.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/builders/DatasetRequestBuilder.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/app.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/services/DatasetsService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/models/Photo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/models/DatasetModel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/TestsOnGetDataset.java" />
         <option value="$PROJECT_DIR$/src/test/resources/allure.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/app.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/services/BaseService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/services/DatasetsService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/models/Camera.java" />
+        <option value="$PROJECT_DIR$/src/test/java/models/DatasetModel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/models/NamesCamera.java" />
+        <option value="$PROJECT_DIR$/src/test/java/models/Rover.java" />
+        <option value="$PROJECT_DIR$/src/test/java/models/Photo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/builders/DatasetRequestBuilder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/TestsOnGetDataset.java" />
       </list>
     </option>
   </component>
@@ -127,10 +142,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="35" />
-    <option name="y" value="157" />
-    <option name="width" value="1028" />
-    <option name="height" value="832" />
+    <option name="x" value="-4" />
+    <option name="y" value="85" />
+    <option name="width" value="1508" />
+    <option name="height" value="914" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -139,6 +154,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="authotesting" type="58d84e3e:PackageViewProjectNode" />
+              <item name="authotesting" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,23 +240,6 @@
               <item name="authotesting" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="authotesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="authotesting" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="allure-results" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="authotesting" type="58d84e3e:PackageViewProjectNode" />
-              <item name="authotesting" type="616d4139:PackageViewModuleNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -238,8 +247,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590447580960" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590515067056" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="models" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -253,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestsOnGetDataset">
+  <component name="RunManager">
     <configuration name="TestsOnGetDataset" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="authotesting" />
       <extension name="coverage">
@@ -289,7 +303,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestsOnGetDataset.dataProjectionQuery" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestsOnGetDataset.dataPositiveProjectionQuery" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="authotesting" />
       <extension name="coverage">
         <pattern>
@@ -299,7 +313,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TestsOnGetDataset" />
-      <option name="METHOD_NAME" value="dataProjectionQuery" />
+      <option name="METHOD_NAME" value="dataPositiveProjectionQuery" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -307,7 +321,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestsOnGetDataset.getDatasetId" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestsOnGetDataset.getDatasetPhotos" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="authotesting" />
       <extension name="coverage">
         <pattern>
@@ -317,7 +331,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TestsOnGetDataset" />
-      <option name="METHOD_NAME" value="getDatasetId" />
+      <option name="METHOD_NAME" value="getDatasetPhotos" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -327,10 +341,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestsOnGetDataset" />
-        <item itemvalue="TestNG.TestsOnGetDataset.getDatasetId" />
-        <item itemvalue="TestNG.TestsOnGetDataset.dataProjectionQuery" />
+        <item itemvalue="TestNG.TestsOnGetDataset.dataPositiveProjectionQuery" />
+        <item itemvalue="TestNG.TestsOnGetDataset.getDatasetPhotos" />
         <item itemvalue="TestNG.TestsOnGetDataset.dataNegativeProjectionQuery" />
+        <item itemvalue="TestNG.TestsOnGetDataset" />
       </list>
     </recent_temporary>
   </component>
@@ -348,42 +362,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestsOnGetDataset_dataProjectionQuery - 2020.05.26 at 02h 37m 26s.xml">
-      <configuration name="TestsOnGetDataset.dataProjectionQuery" configurationId="TestNG" />
+    <history-entry file="TestsOnGetDataset_getDatasetPhotos - 2020.05.26 at 22h 01m 43s.xml">
+      <configuration name="TestsOnGetDataset.getDatasetPhotos" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestsOnGetDataset_getDatasetId - 2020.05.26 at 02h 41m 34s.xml">
-      <configuration name="TestsOnGetDataset.getDatasetId" configurationId="TestNG" />
+    <history-entry file="TestsOnGetDataset_getDatasetPhotos - 2020.05.26 at 22h 22m 12s.xml">
+      <configuration name="TestsOnGetDataset.getDatasetPhotos" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestsOnGetDataset_getDatasetId - 2020.05.26 at 02h 42m 51s.xml">
-      <configuration name="TestsOnGetDataset.getDatasetId" configurationId="TestNG" />
+    <history-entry file="TestsOnGetDataset_getDatasetPhotos - 2020.05.26 at 22h 23m 08s.xml">
+      <configuration name="TestsOnGetDataset.getDatasetPhotos" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestsOnGetDataset_getDatasetId - 2020.05.26 at 02h 44m 13s.xml">
-      <configuration name="TestsOnGetDataset.getDatasetId" configurationId="TestNG" />
+    <history-entry file="TestsOnGetDataset_getDatasetPhotos - 2020.05.26 at 22h 24m 32s.xml">
+      <configuration name="TestsOnGetDataset.getDatasetPhotos" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestsOnGetDataset_getDatasetId - 2020.05.26 at 02h 44m 26s.xml">
-      <configuration name="TestsOnGetDataset.getDatasetId" configurationId="TestNG" />
+    <history-entry file="TestsOnGetDataset_getDatasetPhotos - 2020.05.26 at 22h 26m 48s.xml">
+      <configuration name="TestsOnGetDataset.getDatasetPhotos" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestsOnGetDataset_getDatasetId - 2020.05.26 at 02h 47m 29s.xml">
-      <configuration name="TestsOnGetDataset.getDatasetId" configurationId="TestNG" />
+    <history-entry file="TestsOnGetDataset_getDatasetPhotos - 2020.05.26 at 22h 32m 00s.xml">
+      <configuration name="TestsOnGetDataset.getDatasetPhotos" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestsOnGetDataset_getDatasetId - 2020.05.26 at 02h 48m 23s.xml">
-      <configuration name="TestsOnGetDataset.getDatasetId" configurationId="TestNG" />
+    <history-entry file="TestsOnGetDataset_getDatasetPhotos - 2020.05.26 at 22h 34m 30s.xml">
+      <configuration name="TestsOnGetDataset.getDatasetPhotos" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestsOnGetDataset_getDatasetId - 2020.05.26 at 02h 51m 51s.xml">
-      <configuration name="TestsOnGetDataset.getDatasetId" configurationId="TestNG" />
+    <history-entry file="TestsOnGetDataset_getDatasetPhotos - 2020.05.26 at 22h 42m 39s.xml">
+      <configuration name="TestsOnGetDataset.getDatasetPhotos" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestsOnGetDataset_getDatasetId - 2020.05.26 at 02h 52m 53s.xml">
-      <configuration name="TestsOnGetDataset.getDatasetId" configurationId="TestNG" />
+    <history-entry file="TestsOnGetDataset_dataPositiveProjectionQuery - 2020.05.26 at 22h 43m 04s.xml">
+      <configuration name="TestsOnGetDataset.dataPositiveProjectionQuery" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestsOnGetDataset - 2020.05.26 at 02h 59m 48s.xml">
-      <configuration name="TestsOnGetDataset" configurationId="TestNG" />
+    <history-entry file="TestsOnGetDataset_dataPositiveProjectionQuery - 2020.05.26 at 22h 44m 42s.xml">
+      <configuration name="TestsOnGetDataset.dataPositiveProjectionQuery" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="157" width="1028" height="832" extended-state="0" />
+    <frame x="-4" y="85" width="1508" height="914" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26549587" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18093923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -393,7 +407,7 @@
       <window_info id="DB Browser" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29539642" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,11 +416,12 @@
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32736573" />
+      <window_info anchor="right" x="0" y="0" width="327" height="714" id="Documentation" side_tool="true" weight="0.32941988" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32954547" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.1332873" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -419,82 +434,11 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/resources.properties" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/app_without_apikey.properties" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/app.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/services/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/models/Photo.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/models/DatasetModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/builders/DatasetRequestBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestsOnGetDataset.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/services/DatasetsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -505,15 +449,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="136">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/services/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/services/DatasetsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/models/NamesCamera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/models/Rover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/models/Camera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/models/Photo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1128#1129#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/models/DatasetModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/builders/DatasetRequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestsOnGetDataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="36" column="61" lean-forward="true" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1590515066208" expanded="true" signature="2389:2627" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
