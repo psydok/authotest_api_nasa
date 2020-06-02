@@ -16,6 +16,7 @@ public class TestsOnGetDataset extends BaseTest {
     @Test(groups = "positiveTest")
     public void dataPositiveProjectionQuery() {
         DatasetsService datasetsService = new DatasetsService(properties);
+        checkDataPosNotNull(datasetsService);
         checkDataPosProjectionQuery(datasetsService);
     }
 
@@ -25,19 +26,28 @@ public class TestsOnGetDataset extends BaseTest {
         checkDataNegProjectionQuery(datasetsService);
     }
 
-    private void checkDataPosProjectionQuery(DatasetsService datasetsService, String... fields) {
-        int valueSol = 1000;
-
+    private void checkDataPosNotNull(DatasetsService datasetsService, String... fields) {
+        //без соль приходит пустой массив, но не null!
         RequestSpecification requestSpecification = datasetsService.requestBuilder()
-                .sol(valueSol)
                 .build();
         ValidatableResponse response = datasetsService.executeGetDatasets(requestSpecification)
                 .then()
                 .assertThat()
-                .body("photos.sol", everyItem(is(valueSol)));//"size()", notNullValue());
+                .body("size()", notNullValue());
 
         response.statusCode(HttpStatus.SC_OK);
+    }
 
+    private void checkDataPosProjectionQuery(DatasetsService datasetsService, String... fields) {
+        RequestSpecification requestSpecification = datasetsService.requestBuilder()
+                .sol(1002)
+                .build();
+        ValidatableResponse response = datasetsService.executeGetDatasets(requestSpecification)
+                .then()
+                .assertThat()
+                .body("photos.sol", everyItem(is(1002)));
+
+        response.statusCode(HttpStatus.SC_OK);
     }
 
     private void checkDataNegProjectionQuery(DatasetsService datasetsService, String... fields) {
@@ -62,12 +72,10 @@ public class TestsOnGetDataset extends BaseTest {
                 .build();
 
         DatasetModel dataset = datasetsService.getDataset(requestSpecification);
-
         for (Photo photo: dataset.getPhotos()) {
             assertThat(photo.getSol(), is(1001));
             assertThat(photo.getCamera().getName(), containsString("MAST"));
             assertThat(photo.getImgSrc(), notNullValue());
         }
-
     }
 }

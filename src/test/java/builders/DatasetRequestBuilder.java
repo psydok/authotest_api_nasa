@@ -11,7 +11,7 @@ public class DatasetRequestBuilder {
     }
 
     /**
-     * Марсианский золь миссии Ровера
+     * Марсианский соль миссии Ровера (сутки на марсе)
      */
     public DatasetRequestBuilder sol(int sol) {
         requestSpecification.queryParams("sol", sol);
